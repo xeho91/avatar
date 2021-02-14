@@ -1,0 +1,30 @@
+{
+  "private": true,
+  "name": "xeho91-avatar",
+  "version": "1.0.0",
+  "description": "xeho91's avatar",
+  "main": "xeho91-avatar.min.svg",
+  "scripts": {
+    "minify": "svgo --config \"config/svgo.json\" --input \"xeho91-avatar.svg\" --output \"xeho91-avatar.min.svg\"",
+    "export:png": "svgexport \"xeho91-avatar.svg\" \"xeho91-avatar.png\" 1024:1024"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xeho91/avatar.git"
+  },
+  "keywords": [
+    "avatar",
+    "brand",
+    "assets"
+  ],
+  "author": "Mateusz Kadlubowski <xeho91@pm.me>",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/xeho91/avatar/issues"
+  },
+  "homepage": "https://github.com/xeho91/avatar#readme",
+  "devDependencies": {
+    "svgexport": "^0.4.1",
+    "svgo": "^1.3.2"
+  }
+}
