@@ -4,6 +4,11 @@
   "version": "1.0.0",
   "description": "xeho91's avatar",
   "main": "xeho91-avatar.min.svg",
+  "files": [
+    "xeho91-avatar.svg",
+    "xeho91-avatar.min.svg",
+    "xeho91-avatar.png"
+  ],
   "scripts": {
     "minify": "svgo --config \"config/svgo.json\" --input \"xeho91-avatar.svg\" --output \"xeho91-avatar.min.svg\"",
     "export:png": "svgexport \"xeho91-avatar.svg\" \"xeho91-avatar.png\" 1024:1024"
