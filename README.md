@@ -1,9 +1,11 @@
-# Avatar
+# xeho91's Avatar
 
-**xeho91's avatar** - a centered orange letter "x" in the purple background and
-orange frame.
+A centered orange letter _"x"_ in the purple background and orange frame.
 
 ## Preview
 
-![xeho91's avatar](xeho91-avatar.min.svg)
+![xeho91's avatar](./build/xeho91-avatar.svg)
 
+## License
+
+Please take a look at [LICENSE](./LICENSE) file.
