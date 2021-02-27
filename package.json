@@ -11,15 +11,16 @@
     "brand",
     "assets"
   ],
-  "author": "Mateusz Kadlubowski <xeho91@pm.me>",
+  "author": "Mateusz Kadlubowski <xeho91@pm.me> (https://xeho91.site/)",
   "license": "SEE LICENSE IN LICENSE",
   "bugs": {
-    "url": "https://github.com/xeho91/avatar/issues"
+    "url": "https://github.com/xeho91/xeho91/issues"
   },
   "homepage": "https://github.com/xeho91/avatar#readme",
   "files": [
-    "./build/"
+    "build"
   ],
+  "main": "build/minified/xeho91-avatar.svg",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
   },
